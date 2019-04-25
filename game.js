@@ -44,7 +44,7 @@ function preload() {
 }
 
 function create() {
-  game.stage.backgroundColor = '#4488AA';
+  game.stage.backgroundColor = '#3b5998';
   game.physics.startSystem(Phaser.Physics.ARCADE);
   resetLocalCounters();
   createLevel();
