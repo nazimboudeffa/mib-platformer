@@ -108,7 +108,7 @@ function createCoin(x, y) {
     (sprite.height / 2) / sprite.scale.y,
     sprite.width / 4, sprite.height / 4
   );
-  sprite.animations.add('spin', coinFrames, 8, true);
+  sprite.animations.add('spin', coinFrames, 6, true);
   sprite.animations.play('spin');
   return sprite;
 
@@ -172,7 +172,7 @@ function createPlayer(x, y, props) {
   sprite.body.gravity.y = playerGravity;
   sprite._onLadder = false;
   sprite.health = currentHealth;
-  sprite.animations.add('idle', playerIdleFrames, 2, true);
+  sprite.animations.add('idle', playerIdleFrames, 6, true);
   sprite.animations.add('run', playerRunFrames, 20);
   sprite.animations.add('climb', playerClimbFrames, 2);
   sprite.animations.add('fall', playerFallFrames, 2);

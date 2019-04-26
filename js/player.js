@@ -45,9 +45,9 @@ function createCoinsCounterDisplay() {
 function createHealthDisplay() {
   playerHealthDisplay = game.add.group(undefined, 'playerHealthDisplayGroup');
   for (let i = 0; i < player.health; i++) {
-    let x = i * map.tileWidth+ i;
+    let x = i * map.tileWidth + i;
     let healthSprite = game.add.sprite(x, 0, 'atlas', 'firstaid.png');
-    //healthSprite.scale.set(0.25);
+    //healthSprite.scale.set(0.5);
     playerHealthDisplay.add(healthSprite);
   }
   playerHealthDisplay.x = map.tileWidth * 1.2;
