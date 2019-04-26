@@ -173,7 +173,7 @@ function createPlayer(x, y, props) {
   sprite._onLadder = false;
   sprite.health = currentHealth;
   sprite.animations.add('idle', playerIdleFrames, 2, true);
-  sprite.animations.add('run', playerRunFrames, 2);
+  sprite.animations.add('run', playerRunFrames, 20);
   sprite.animations.add('climb', playerClimbFrames, 2);
   sprite.animations.add('fall', playerFallFrames, 2);
   sprite.animations.add('jump', playerJumpFrames, 2);
