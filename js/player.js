@@ -191,9 +191,11 @@ function handleFail() {
 
 function goToNextLevel(player, door) {
   if (doorIsOpen) {
-    currentLevel++;
+    console.log("Ready for next level");
+    //currentLevel++;
     if (currentLevel > levelsCount) {
-      currentLevel = 1;
+    //  currentLevel = 1;
+    console.log("You win");
     }
     game.state.restart();
   }

@@ -2,8 +2,8 @@ const state = { init, preload, create, update };
 
 const game = new Phaser.Game(400, 288, Phaser.AUTO, 'game', state);
 
-//let currentLevel = 1;
-//let levelsCount = 2;
+let currentLevel = 1;
+let levelsCount = 2;
 
 let layers = {};
 
