@@ -212,11 +212,7 @@
                 <false/>
             </struct>
             <key type="filename">fall.png</key>
-            <key type="filename">idle0.png</key>
-            <key type="filename">idle1.png</key>
             <key type="filename">jump.png</key>
-            <key type="filename">run0.png</key>
-            <key type="filename">run1.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -239,6 +235,41 @@
                 <rect>9,9,17,17</rect>
                 <key>scale9Paddings</key>
                 <rect>9,9,17,17</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">idle0.png</key>
+            <key type="filename">idle1.png</key>
+            <key type="filename">idle2.png</key>
+            <key type="filename">idle3.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>5,5,10,10</rect>
+                <key>scale9Paddings</key>
+                <rect>5,5,10,10</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">run0.png</key>
+            <key type="filename">run1.png</key>
+            <key type="filename">run2.png</key>
+            <key type="filename">run3.png</key>
+            <key type="filename">run4.png</key>
+            <key type="filename">run5.png</key>
+            <key type="filename">run6.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>5,5,10,9</rect>
+                <key>scale9Paddings</key>
+                <rect>5,5,10,9</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -317,19 +348,26 @@
             <filename>coin3.png</filename>
             <filename>door0.png</filename>
             <filename>door1.png</filename>
+            <filename>fall.png</filename>
             <filename>firstaid.png</filename>
-            <filename>idle0.png</filename>
-            <filename>idle1.png</filename>
+            <filename>jump.png</filename>
             <filename>run0.png</filename>
             <filename>run1.png</filename>
+            <filename>run2.png</filename>
+            <filename>run3.png</filename>
+            <filename>run4.png</filename>
+            <filename>run5.png</filename>
+            <filename>run6.png</filename>
             <filename>walk0.png</filename>
             <filename>walk1.png</filename>
             <filename>walk2.png</filename>
             <filename>walk3.png</filename>
             <filename>walk4.png</filename>
             <filename>walk5.png</filename>
-            <filename>fall.png</filename>
-            <filename>jump.png</filename>
+            <filename>idle0.png</filename>
+            <filename>idle1.png</filename>
+            <filename>idle2.png</filename>
+            <filename>idle3.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
