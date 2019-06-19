@@ -1,6 +1,6 @@
 # The MIB are a rumor what about you ?
 
-Try to learn how to code it from scratch by fllowing the steps in https://github.com/nazimboudeffa/GameJamReady
+Try to learn how to code it from scratch by fllowing the steps in https://github.com/nazimboudeffa/ReadyGameJamOne
 
 ## Pixel Art
 
